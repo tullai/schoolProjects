@@ -1,0 +1,15 @@
+1. expert system shells are the software containing an interface, an inference engine, and the formatted skeleton of a knowledge base.It would be customized to take a user’s input and interpret that information to the data repository and, by comparison, locate matching information that might help guide the user to a solution.
+
+2. https://www.easytechjunkie.com/what-are-expert-system-shells.htm#:~:text=What%20Are%20Expert%20System%20Shells%3F%20In%20expert%20systems%2C,that%20the%20inference%20engine%20may%20process%20for%20users.
+
+3.  Forward chaining in these shells enables taking data from a user and using inference engine rules to locate more data relative to that information until there is enough information to form a conclusion.
+
+4. Backward chaining: https://www.easytechjunkie.com/what-is-backward-chaining.html
+
+5. Rule-based expert systems solve problems by applying a set of programmed rules to available information. These generally take the form of conditional sentences the computer can use to logically check data to reach a conclusion.
+
+6.A knowledge base (KB) is a repository of information that is used in an organization’s knowledge management operations. These operations include functions such as customer support or product development. The information is usually stored in an electronic data base.
+
+7.https://pypi.org/project/experta/
+
+8.https://experta.readthedocs.io/en/latest/introduction.html

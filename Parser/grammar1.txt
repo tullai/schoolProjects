@@ -1,0 +1,38 @@
+<program> -> <statement>
+ <statement> ->  "print"<paren_expr>";" | <expr>";" | ";" | if<paren_expr>{<s2>}
+ <s2> -> <expr>";"
+ <paren_expr> -> (<expr2>)
+ <expr> -> <sum>
+ <expr2> -> <test>
+ <test> -> "<sum>"<"<sum>
+ <sum> -> <term> | <num>"+"<term> | <num>"-"<term>
+ <term> -> <id> | <int>
+ <id> -> <identifier>
+ <num> -> <RDatatype>
+
+
+P - <program>
+S - <statement>
+i - "if"
+X - <paren_expr>
+B - <s2>
+; - ";"
+f - "print"
+{ - "{"
+} - "}"
+( - "("
+) - ")"
+E - <expr>
+G - <expr2>
+T - <test>
+I - <id>
+A - <sum>
+N - <num>
+p - <a_finite_sequence_of_acceptable_symbols>
+q - <an_unsigned_decimal_integer>
+Q - <term>
+m - <int>
++ - "+"
+- - "-"
+< - "<"
+= - "="
